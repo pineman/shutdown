@@ -65,3 +65,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'sidekiq'
+
+gem "async", "~> 2.12"
